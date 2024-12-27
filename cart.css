@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffc2c2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #a64d79;
+}
+
+header nav button {
+    background-color: #a64d79;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header nav button:hover {
+    background-color: #ff99cc;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 22px;
+    color: #a64d79;
+    margin-bottom: 20px;
+}
+
+.cart-container {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffc2c2;
+    color: #333;
+}
+
+.cart-summary {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: right;
+}
+
+.cart-summary h3 {
+    font-size: 20px;
+    color: #a64d79;
+}
+
+.cart-summary button {
+    background-color: #a64d79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-summary button:hover {
+    background-color: #ff99cc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ffc2c2;
+    padding: 10px 0;
+    color: #333;
+}
