@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Glorify Beauty</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo (2).jpg" alt="Glorify Beauty Logo">
+            <h1>GLORIFY BEAUTY</h1>
+        </div>
+        <nav>
+            <button onclick="navigate('home.html')">Home</button>
+            <button onclick="navigate('shop.html')">Shop</button>
+            <button onclick="navigate('cart.html')">Cart</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="subheading">Soft Beauty Aesthetics</h2>
+        
+        <section class="offers">
+            <h3>Christmas Offers</h3>
+            <div class="offer-images">
+                <img src="offer 1.png" alt="Christmas Offer 1">
+                <img src="offer 2.jpg" alt="Christmas Offer 2">
+                <img src="offer 3.jpeg" alt="Christmas Offer 3">
+            </div>
+        </section>
+
+        <section class="best-sellers">
+            <h3>Best Selling Products</h3>
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="C:\ADD\hackivators\spf cream.png" alt="Product 1">
+                    <h4>SPF Night Cream</h4>
+                    <p>Price: ₹300</p>
+                    <button class="add-to-cart" data-id="1" data-price="300" data-name="SPF Night Cream">Add to Cart</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="C:\ADD\hackivators\peach lipstick.jpeg" alt="Product 2">
+                    <h4>Peach Lipstick</h4>
+                    <p>Price:₹250 </p>
+                    <button class="add-to-cart" data-id="2" data-price="250" data-name="Peach Lipstick">Add to Cart</button>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="rose mist.webp" alt="Product 3">
+                    <h4>Rose Face Mist</h4>
+                    <p>Price: ₹200 </p>
+                    <button class="add-to-cart" data-id="3" data-price="200" data-name="Rose Face Mist">Add to Cart</button>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="hydrating serum.jpeg" alt="Product 4">
+                    <h4>Hydrating Serum</h4>
+                    <p>Price: ₹500 </p>
+                    <button class="add-to-cart" data-id="4" data-price="500" data-name="Hydrating Serum" >Add to Cart</button>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="charcol face mask.jpg" alt="Product 5">
+                    <h4>Charcoal Face Mask</h4>
+                    <p>Price: ₹150 </p>
+                    <button class="add-to-cart" data-id="5" data-price="150" data-name="Charcoal Face Mask">Add to Cart</button>
+                </div>
+        </section>
+    </main>
+</body>
+<script src="home.js"></script>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Glorify Beauty</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo (2).jpg" alt="Glorify Beauty Logo">
+            <h1>Glorify Beauty</h1>
+        </div>
+        <nav>
+            <button onclick="navigate('home.html')">Home</button>
+            <button onclick="navigate('shop.html')">Shop</button>
+            <button onclick="navigate('cart.html')">Cart</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="subheading">Discover Our Exclusive Beauty Products</h2>
+
+        <section class="product-section">
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product-card" data-id="1">
+                    <img src="spf cream.png" alt="Hydrating Night Cream">
+                    <h4>Hydrating Night Cream</h4>
+                    <p>₹599</p>
+                    <p>Nourishes your skin overnight.</p>
+                    <button class="add-to-cart" data-id="1" data-price="599" data-name="Hydrating Night Cream">Add to Cart</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card" data-id="2">
+                    <img src="matte lipstick.jpg" alt="Matte Lipstick">
+                    <h4>Matte Lipstick</h4>
+                    <p>₹499</p>
+                    <p>Perfect for any occasion.</p>
+                    <button class="add-to-cart" data-id="2" data-price="499" data-name="Matte Lipstick">Add to Cart</button>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card" data-id="3">
+                    <img src="vit c serum.jpeg" alt="Vitamin C Serum">
+                    <h4>Vitamin C Serum</h4>
+                    <p>₹799</p>
+                    <p>Brightens your skin naturally.</p>
+                    <button class="add-to-cart" data-id="3" data-price="799" data-name="Vitamin C Serum">Add to Cart</button>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card" data-id="4">
+                    <img src="peach lipstick.jpeg" alt="Peach Lip Balm">
+                    <h4>Peach Lip Balm</h4>
+                    <p>₹199</p>
+                    <p>Moisturizes and protects your lips.</p>
+                    <button class="add-to-cart" data-id="4" data-price="199" data-name="Peach Lip Balm">Add to Cart</button>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card" data-id="5">
+                    <img src="scrube.png" alt="Exfoliating Scrub">
+                    <h4>Exfoliating Scrub</h4>
+                    <p>₹349</p>
+                    <p>Removes dead skin cells.</p>
+                    <button class="add-to-cart" data-id="5" data-price="349" data-name="Exfoliating Scrub">Add to Cart</button>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card" data-id="6">
+                    <img src="charcol face mask.jpg" alt="Charcoal Face Mask">
+                    <h4>Charcoal Face Mask</h4>
+                    <p>₹399</p>
+                    <p>Deep cleanses your skin.</p>
+                    <button class="add-to-cart" data-id="6" data-price="399" data-name="Charcoal Face Mask">Add to Cart</button>
+                </div>
+                <!-- Product 7 -->
+                <div class="product-card" data-id="7">
+                    <img src="anti aging cream.jpg" alt="Anti-Aging Cream">
+                    <h4>Anti-Aging Cream</h4>
+                    <p>₹999</p>
+                    <p>Reduces fine lines and wrinkles.</p>
+                    <button class="add-to-cart" data-id="7" data-price="999" data-name="Anti-Aging Cream">Add to Cart</button>
+                </div>
+                <!-- Product 8 -->
+                <div class="product-card" data-id="8">
+                    <img src="rose-water-toner.jpg" alt="Rose Water Toner">
+                    <h4>Rose Water Toner</h4>
+                    <p>₹249</p>
+                    <p>Refreshes and soothes your skin.</p>
+                    <button class="add-to-cart" data-id="8" data-price="249" data-name="Rose Water Toner">Add to Cart</button>
+                </div>
+                <!-- Product 9 -->
+                <div class="product-card" data-id="9">
+                    <img src="body lotion.jpeg" alt="Body Lotion">
+                    <h4>Body Lotion</h4>
+                    <p>₹599</p>
+                    <p>Deep hydration for smooth skin.</p>
+                    <button class="add-to-cart" data-id="9" data-price="599" data-name="Body Lotion">Add to Cart</button>
+                </div>
+                <!-- Product 10 -->
+                <div class="product-card" data-id="10">
+                    <img src="aloevera-gel.jpg" alt="Aloe Vera Gel">
+                    <h4>Aloe Vera Gel</h4>
+                    <p>₹199</p>
+                    <p>Soothes irritated skin.</p>
+                    <button class="add-to-cart" data-id="10" data-price="199" data-name="Aloe Vera Gel">Add to Cart</button>
+                </div>
+                <!-- Product 11 -->
+                <div class="product-card" data-id="11">
+                    <img src="kajal.jpeg" alt="Kajal Eyeliner">
+                    <h4>Kajal Eyeliner</h4>
+                    <p>₹149</p>
+                    <p>Long-lasting and smudge-proof.</p>
+                    <button class="add-to-cart" data-id="11" data-price="149" data-name="Kajal Eyeliner">Add to Cart</button>
+                </div>
+                <!-- Product 12 -->
+                <div class="product-card" data-id="12">
+                    <img src="cleaning milk.jpg" alt="Cleansing Milk">
+                    <h4>Cleansing Milk</h4>
+                    <p>₹349</p>
+                    <p>Gently removes makeup.</p>
+                    <button class="add-to-cart" data-id="12" data-price="349" data-name="Cleansing Milk">Add to Cart</button>
+                </div>
+                <!-- Product 13 -->
+                <div class="product-card" data-id="13">
+                    <img src="hair .png" alt="Hair Serum">
+                    <h4>Hair Serum</h4>
+                    <p>₹599</p>
+                    <p>Reduces frizz and adds shine.</p>
+                    <button class="add-to-cart" data-id="13" data-price="599" data-name="Hair Serum">Add to Cart</button>
+                </div>
+                <!-- Product 14 -->
+                <div class="product-card" data-id="14">
+                    <img src="compact powder.jpg" alt="Compact Powder">
+                    <h4>Compact Powder</h4>
+                    <p>₹299</p>
+                    <p>Gives a matte finish.</p>
+                    <button class="add-to-cart" data-id="14" data-price="299" data-name="Compact Powder">Add to Cart</button>
+                </div>
+                <!-- Product 15 -->
+                <div class="product-card" data-id="15">
+                    <img src="primer.jpeg" alt="Face Primer">
+                    <h4>Face Primer</h4>
+                    <p>₹599</p>
+                    <p>Preps your skin for makeup.</p>
+                    <button class="add-to-cart" data-id="15" data-price="599" data-name="Face Primer">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Overall Review Section -->
+        <section class="overall-review-section">
+            <h2 class="subheading">Give Your Overall Review</h2>
+            <div class="review-form">
+                <textarea id="overall-review" placeholder="Write your overall review here..." rows="4"></textarea>
+                <select id="overall-rating">
+                    <option value="1">★☆☆☆☆</option>
+                    <option value="2">★★☆☆☆</option>
+                    <option value="3">★★★☆☆</option>
+                    <option value="4">★★★★☆</option>
+                    <option value="5">★★★★★</option>
+                </select>
+                <button id="submit-overall-review">Submit Review</button>
+            </div>
+            <div id="overall-reviews"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Glorify Beauty</p>
+    </footer>
+
+    <script src="shop.js"></script>
+</body>
+</html>
+
+    
+
+    

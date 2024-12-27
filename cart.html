@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - GLORIFY BEAUTY</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo (2).jpg" alt="Glorify Beauty Logo">
+            <h1>GLORIFY BEAUTY</h1>
+        </div>
+        <nav>
+            <button onclick="navigate('home.html')">Home</button>
+            <button onclick="navigate('shop.html')">Shop</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="subheading">Your Cart</h2>
+        <div class="cart-container">
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price (₹)</th>
+                        <th>Quantity</th>
+                        <th>Total (₹)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic content will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="cart-summary">
+            <h3><span id="total-price">0</span></h3>
+            <button id="buy-now">Buy Now</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GLORIFY BEAUTY - Soft Beauty Aesthetics</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
